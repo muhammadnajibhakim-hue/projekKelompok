@@ -113,7 +113,7 @@ function editAntrian(id) {
     tambahAntrian();
 }
 
-// Fungsi pembantu untuk memuat ulang semua tampilan
+// untuk memuat ulang semua tampilan
 function refreshSemua() {
     tampilkanAntrian();
     tampilkanCard();
@@ -123,5 +123,4 @@ function refreshSemua() {
 // Event Listener
 document.getElementById("btnTambah").addEventListener("click", tambahAntrian);
 
-// Jalankan saat halaman dibuka
 refreshSemua();
