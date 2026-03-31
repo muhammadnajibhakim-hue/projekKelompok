@@ -20,11 +20,6 @@ body {
     margin: 0 auto;
 }
 
-
-/* ==========================
-   HERO SECTION
-   ========================== */
-
 .dashboard-hero {
     background: linear-gradient(135deg, #007bff, #0056b3);
     color: white;
@@ -63,11 +58,6 @@ body {
     transform: scale(1.05);
 }
 
-
-/* ==========================
-   STATISTICS CARDS
-   ========================== */
-
 .dashboard-stats {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -94,11 +84,6 @@ body {
     font-size: 2rem;
     color: #333;
 }
-
-
-/* ==========================
-   GRID & CARDS
-   ========================== */
 
 .card-grid {
     display: grid;
@@ -128,11 +113,6 @@ body {
     margin-bottom: 5px;
 }
 
-
-/* ==========================
-   TABLE STYLE
-   ========================== */
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -158,11 +138,6 @@ table tbody tr:nth-child(even) {
     background-color: #f8f9fa;
 }
 
-
-/* ==========================
-   BUTTONS IN TABLE/CARD
-   ========================== */
-
 button {
     padding: 6px 12px;
     border: none;
@@ -187,8 +162,6 @@ button[onclick*="hapusAntrian"] {
     color: white;
 }
 
-
-/* Responsif untuk HP */
 
 @media (max-width: 600px) {
     .dashboard-stats {
