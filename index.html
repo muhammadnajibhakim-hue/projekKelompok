@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Antrian Klinik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+        <div class="dashboard-hero">
+            <h3>Nomor Antrian Terakhir</h3>
+            <h1 id="nomorTerakhir">-</h1>
+            <p>Nomor terbaru yang telah diambil pasien</p>
+            <button id="btnTambah" style="padding: 10px 20px; cursor: pointer;">+ Tambah Antrian Baru</button>
+        </div>
+
+        <div class="dashboard-stats">
+            <div class="stat-box">
+                <h4>Total Pasien</h4>
+                <h2 id="totalPasien">0</h2>
+            </div>
+            <div class="stat-box">
+                <h4>Antrian Hari Ini</h4>
+                <h2 id="antrianHariIni">0</h2>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="cardContainer" class="card-grid">
+        </div>
+
+        <table border="1" style="width: 100%; margin-top: 20px; text-align: left;">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Keluhan</th>
+                    <th>Waktu</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="tabelAntrian">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
